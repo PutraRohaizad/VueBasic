@@ -1,0 +1,13 @@
+.btn-success{
+    background-color: yellowgreen;
+    padding: 1rem;
+    color: white;
+    border: 1px solid grey;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.btn-success:hover{
+    background-color: white;
+    color: yellowgreen;
+}
