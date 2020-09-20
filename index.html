@@ -23,9 +23,9 @@
         <li v-for="(type, i in types" style="list-style: none;">{{i}} {{type.name}} - {{type.age}}</li>
       </ul> -->
 
-      <template v-for="(type, index) in types" v-if="result">
-          <h3>{{type.name}}</h3>
-          <p>{{type.age}}</p>
+      <template v-for="(user, index) in users" v-if="result">
+          <h3>{{index}}-{{user.name}}</h3>
+          <p>{{user.username}}</p>
       </template>
 
     </div>
